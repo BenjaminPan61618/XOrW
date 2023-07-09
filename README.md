@@ -1,6 +1,6 @@
 # XOrW
 ## 截图
-! [markpic][mdpic]
+! [markpic] [mdpic]
 ## 注意
 1. 请在图形界面下的 Linux 操作系统运行此程序 (无法保证能在 Android 设备上运行) 
 
