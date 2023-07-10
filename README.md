@@ -68,4 +68,18 @@ KDE 和 GNOME 两大桌面环境也在积极适配自身桌面各个组件，不
 2. 程序将输出当前会话类型。
 
 ## 不明觉厉？
-事实上，此程序原理十分简单(56行代码），就是通过读取或让系统返回 XDG_SESSION_TYPE 这个变量的数值来实现判断，是没啥技术含量的。
+事实上，此程序原理十分简单(56行代码），就是通过读取或让系统返回 XDG_SESSION_TYPE 这个变量的数值来实现判断，是没技术含量的。
+
+## 文件结构
+### 说明性文件
+LICENSE 版权文件
+README.md 自我说明文件
+Screenshot.png 截图
+### 源码
+X11OrWayland.cpp 二选一版
+XOrW.cpp 纯 C++ 版
+XOrW.py Python 版
+XOrW.rs Rust 版
+XOrW.sh Shell 脚本
+XOrW_Shell.cpp Shell 脚本 + C++
+### (上述文件选择其一进行编译/解释即可运行、使用)
